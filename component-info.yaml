@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-nov4
+  description: demo
+  annotations: 
+    github.com/project-slug: leemills83/demo-app-5
+    backstage.io/github-actions-id: leemills83/demo-app-5
+spec:
+  type: service
+  lifecycle: experimental
+  owner: leemills83
